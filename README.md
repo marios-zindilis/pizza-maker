@@ -80,6 +80,10 @@ by `manage.py`. By default that is:
 
     http://127.0.0.1:8000/
 
+The API is browsable at:
+
+    http://127.0.0.1:8000/api/
+
 ## What's Next? ##
 
 The application should work fine, but it's only a simple proof-of-concept app.
@@ -96,8 +100,11 @@ Here are some ideas if you want to work on improving it:
 
 [Coding for Entrepreneurs][7] has two fantastic series of videos on Youtube,
 [one on TypeScript][8] and [one on Angular][9]. Both have been extremely
-valuable resources for me. They also have a series of videos on their website
-on [combining Django and Angular][10]. Half of the latter is available for free
+valuable resources for me. For convenience, I created a 
+[list of these videos here][10].
+
+They also have a series of videos on their website
+on [combining Django and Angular][11]. Half of the latter is available for free
 after registration (also free).
 
 Credits for the pizza pictures: 
@@ -125,5 +132,7 @@ Bootstrap documentation.
   "Coding for Entrepreneurs - Getting Started with Typescript"
 [9]: https://www.youtube.com/watch?v=9wc8Gv8X49U&list=PLEsfXFp6DpzQThMU768hTZInWUqfoyTEW
   "Coding for Entrepreneurs - Try Angular 4"
-[10]: https://www.codingforentrepreneurs.com/projects/angular-django/
+[10]: https://zindilis.com/docs/angular.html 
+  "Coding for Entrepreneurs - Typescript and Angular videos"
+[11]: https://www.codingforentrepreneurs.com/projects/angular-django/
   "Coding for Entrepreneurs - Angular & Django"
