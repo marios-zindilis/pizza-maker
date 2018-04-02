@@ -95,6 +95,9 @@ Here are some ideas if you want to work on improving it:
     it. Perhaps you want to add features to add toppings and pizzas, edit them
     and delete them.
 3.  Customize the title with https://angular.io/guide/set-document-title
+4.  I'm using a couple of property methods on the models to resolve the
+    foreign keys to objects. I'm pretty sure that I can do that with the
+    Django Rest Framework, but I didn't look into it too much.
 
 ## Credits ##
 
