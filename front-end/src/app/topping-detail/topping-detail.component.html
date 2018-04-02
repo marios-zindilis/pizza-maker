@@ -1,0 +1,9 @@
+<div class="container" *ngIf="topping">
+  <h1>{{ topping.name }}</h1>
+  <h2>On the following Pizzas</h2>
+  <ol>
+    <li *ngFor="let pizza of topping.on_pizzas">
+      <a routerLink="/pizza/{{ pizza.id }}">{{ pizza.name }}</a>
+    </li>
+  </ol>
+</div>

@@ -1,0 +1,9 @@
+<div class="container">
+  <h1>Toppings</h1>
+
+  <ol>
+    <li *ngFor="let topping of toppings">
+      <a routerLink="/topping/{{ topping.id }}">{{ topping.name }}</a>
+    </li>
+  </ol>
+</div>

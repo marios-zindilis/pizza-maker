@@ -1,0 +1,16 @@
+<div class="jumbotron py-0">
+  <div class="container">
+    <carousel>
+      <slide *ngFor="let pizza of pizzas">
+        <a routerLink="/pizza/{{ pizza.id }}/">
+          <img style="display: block; width: 100%;" src="/static/assets/images/{{ pizza.name | lowercase }}-carousel.jpg" alt="First slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>{{ pizza.name }}</h3>
+          </div>
+        </a>
+      </slide>
+    </carousel>
+  </div>   
+</div>
+
+<app-pizza-list></app-pizza-list>

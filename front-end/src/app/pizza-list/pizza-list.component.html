@@ -1,0 +1,24 @@
+<div class="py-5 bg-light">
+  <div class="container">
+    <div class="row">
+
+      <!-- BEGIN per pizza -->
+      <div class="col-md-4" *ngFor='let pizza of pizzas'>
+        <div class="card mb-4">
+          <img class="card-img-top" style="height: 225px; width: 100%; display: block;" src="/static/assets/images/{{ pizza.name | lowercase }}.jpg" data-holder-rendered="true">
+          <div class="card-body">
+            <h5 class="card-title">{{ pizza.name }}</h5>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a routerLink="/pizza/{{ pizza.id }}/" class="btn btn-sm btn-outline-primary">View</a>
+                <a href="/admin/pizza_maker/pizza/{{ pizza.id }}/change/" class="btn btn-sm btn-outline-secondary">Edit</a>
+              </div>
+            </div>
+          </div><!-- .card-body -->
+        </div><!-- .card -->
+      </div>
+      <!-- END per pizza -->
+      
+    </div><!-- .row -->
+  </div>
+</div>

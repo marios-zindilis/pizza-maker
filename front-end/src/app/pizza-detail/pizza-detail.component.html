@@ -1,0 +1,9 @@
+<div class="container" *ngIf="pizza">
+    <h1>{{ pizza.name }}</h1>
+    <h2>Toppings</h2>
+    <ul>
+        <li *ngFor="let topping of pizza._toppings">
+            <a routerLink="/topping/{{ topping.id }}">{{ topping.name }}</a>
+        </li>
+    </ul>
+</div>
