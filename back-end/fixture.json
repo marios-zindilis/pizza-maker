@@ -1,0 +1,142 @@
+[
+    {
+        "fields": {
+            "name": "Cheese"
+        },
+        "model": "pizza_maker.topping",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "name": "Ham"
+        },
+        "model": "pizza_maker.topping",
+        "pk": 2
+    },
+    {
+        "fields": {
+            "name": "Mushrooms"
+        },
+        "model": "pizza_maker.topping",
+        "pk": 3
+    },
+    {
+        "fields": {
+            "name": "Tomatoes"
+        },
+        "model": "pizza_maker.topping",
+        "pk": 4
+    },
+    {
+        "fields": {
+            "name": "Pineapple"
+        },
+        "model": "pizza_maker.topping",
+        "pk": 5
+    },
+    {
+        "fields": {
+            "name": "Bacon"
+        },
+        "model": "pizza_maker.topping",
+        "pk": 6
+    },
+    {
+        "fields": {
+            "name": "Chicken"
+        },
+        "model": "pizza_maker.topping",
+        "pk": 7
+    },
+    {
+        "fields": {
+            "name": "Onions"
+        },
+        "model": "pizza_maker.topping",
+        "pk": 8
+    },
+    {
+        "fields": {
+            "name": "Sweet Corn"
+        },
+        "model": "pizza_maker.topping",
+        "pk": 9
+    },
+    {
+        "fields": {
+            "name": "Pepperoni"
+        },
+        "model": "pizza_maker.topping",
+        "pk": 10
+    },
+    {
+        "fields": {
+            "name": "Bell Pepper"
+        },
+        "model": "pizza_maker.topping",
+        "pk": 11
+    },
+    {
+        "fields": {
+            "name": "Margherita",
+            "toppings": [
+                1,
+                4
+            ]
+        },
+        "model": "pizza_maker.pizza",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "name": "Hawaiian",
+            "toppings": [
+                1,
+                2,
+                5
+            ]
+        },
+        "model": "pizza_maker.pizza",
+        "pk": 2
+    },
+    {
+        "fields": {
+            "name": "Chicken",
+            "toppings": [
+                1,
+                7,
+                8,
+                9
+            ]
+        },
+        "model": "pizza_maker.pizza",
+        "pk": 3
+    },
+    {
+        "fields": {
+            "name": "Pepperoni",
+            "toppings": [
+                1,
+                3,
+                4,
+                10
+            ]
+        },
+        "model": "pizza_maker.pizza",
+        "pk": 4
+    },
+    {
+        "fields": {
+            "name": "Vegetarian",
+            "toppings": [
+                1,
+                4,
+                8,
+                9,
+                11
+            ]
+        },
+        "model": "pizza_maker.pizza",
+        "pk": 5
+    }
+]
