@@ -45,6 +45,41 @@ cd front-end
 npm install
 ```
 
+### Back-End ###
+
+To prepare the back-end, change to the `back-end` directory, create the
+database, and initialize it with the sample data:
+
+```
+cd ../back-end
+./manage.py makemigrations pizza_maker
+./manage.py migrate
+./manage.py loaddata fixture.json
+```
+
+## Build ##
+
+At this point, you build the front-end into the back-end `static` directory:
+
+```
+cd ../front-end
+ng build --output-path ../back-end/pizza_maker/static/ --output-hashing none
+```
+
+## Run ##
+
+Finally, you can run the application:
+
+```
+cd ../back-end
+./manage.py runserver
+```
+
+You should now be able to access your application at the URL which is output
+by `manage.py`. By default that is:
+
+    http://127.0.0.1:8000/
+
 <!-- Links -->
 
 [1]: https://getbootstrap.com/ "Bootstrap"
